@@ -4,6 +4,10 @@ import { defineConfig } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
+  server: {
+    port: 4174,
+    strictPort: true,
+  },
   preview: {
     port: 4174,
     strictPort: true,
